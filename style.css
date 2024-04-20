@@ -439,6 +439,16 @@ input[type="submit"]:hover {
   .hide-bx {
     display: none !important;
   }
+  .offer-4-img {
+	display: none;
+  }
+  .narrow-image {
+	display: block;
+	grid-area: offer-2-img;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
 }
 @media (min-width: 769px) {
   header {
@@ -500,6 +510,15 @@ input[type="submit"]:hover {
     object-fit: fill;
     width: 100%;
     height: 100%;
+  }
+  .offer-4-img {
+    grid-area: offer-2-img;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+  .narrow-image {
+	  display: none;
   }
   .offer-desc-1 {
     grid-area: offer-desc-1;
