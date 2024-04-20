@@ -439,16 +439,6 @@ input[type="submit"]:hover {
   .hide-bx {
     display: none !important;
   }
-  .offer-4-img {
-	display: none;
-  }
-  .narrow-image {
-	display: block;
-	grid-area: offer-2-img;
-    object-fit: fill;
-    width: 100%;
-    height: 100%;
-  }
 }
 @media (min-width: 769px) {
   header {
@@ -518,7 +508,10 @@ input[type="submit"]:hover {
     height: 100%;
   }
   .narrow-image {
-	  display: none;
+    grid-area: offer-2-img;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
   }
   .offer-desc-1 {
     grid-area: offer-desc-1;
@@ -621,5 +614,22 @@ input[type="submit"]:hover {
   .designer {
     color: hsla(0, 0%, 98%, 0.322);
     font-size: 0.8rem;
+  }
+  
+  @media (min-aspect-ratio: 1/1) {
+	  .narrow-image {
+		  display: none;
+	  }
+	  .offer-4-img {
+		  display: block;
+	  }
+  }
+  @media (max-aspect-ratio: 1/1) {
+	  .narrow-image {
+		  display: block;
+	  }
+	  .offer-4-img {
+		  display: none;
+	  }
   }
 }
