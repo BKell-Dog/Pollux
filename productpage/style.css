@@ -163,7 +163,12 @@ main {
 	margin-top: 15px;
 }
 
+.genealogy-tree {
+	color: grey;
+}
+
 .product-title {
+	margin-top: 20px;
 	margin-bottom: 15px;
 }
 
