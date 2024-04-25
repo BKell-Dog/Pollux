@@ -118,6 +118,15 @@ main {
 	margin-bottom: 100px;
 }
 
+.readable-text {
+	font-size: 18px;
+}
+
+.greyed-text {
+	font-size: 14px;
+	color: grey;
+}
+
 /* -------- PRODUCT OVERVIEW -------------- */
 
 .overview {
@@ -144,17 +153,23 @@ main {
 }
 
 .thumbnail-bar {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     padding: 10px;
     background-color: #f0f0f0;
+	width: auto;
+	max-width: 100%;
+	margin-top: 15px;
 }
 
 .thumbnail {
 	max-height: 70px;
-	max-width: 150px;
+	max-width: 100%;
     width: auto;
+	height: auto;
     cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .overview-info {
@@ -177,6 +192,20 @@ main {
     color: #333;
 	margin-top: 15px;
 }
+
+/* ------ PRODUCT DESCRIPTION ------ */
+
+.product-details {
+	margin: 30px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.idd-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 
 .section-1 {
   background-color: var(--dark-color);
