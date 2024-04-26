@@ -17,6 +17,7 @@
   --third-color: hsl(220, 36%, 28%);
   --white-color: #fbfbfb;
   --white-color-alt: hsl(12, 14%, 93%);
+  --off-white-color: #f6f6f6;
   --dark-color: hsl(300, 100%, 0%);
 }
 
@@ -42,7 +43,7 @@ img {
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
-  background-color: var(--white-color);
+  background-color: var(--off-white-color);
 }
 
 /* ================= HEADER ================ */
