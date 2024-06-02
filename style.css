@@ -38,6 +38,10 @@ img {
   padding: 0 2rem;
 }
 
+.favicon {
+	border-radius: 50%;
+}
+
 /* -- BODY -- */
 body {
   font-family: "Raleway", sans-serif;
